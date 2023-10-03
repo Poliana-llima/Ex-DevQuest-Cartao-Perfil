@@ -1,0 +1,54 @@
+body {
+        background-color: hsl(185, 75%, 39%);
+        font-family: 'Kumbh Sans', cursive;
+        color: hsl(227, 10%, 46%);
+        font-size: 17px;
+        height: 100vh;
+    }
+
+.card .dados-perfil img{
+    border-radius: 50%;
+    margin-top: 30px;
+
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card .dados-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+    width: 330px;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.card .numeros-perfil{
+    border-top: 2px solid hsl(227, 10%, 46%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    width: 330px;
+    height: 150px; 
+    text-align: center;
+}
+
+.card .numeros-perfil .info .numeros-k{
+    font-weight: 700;
+}
+
+.card .numeros-perfil .info .numeros-tipo{
+    font-weight: 400;
+}
+
+
